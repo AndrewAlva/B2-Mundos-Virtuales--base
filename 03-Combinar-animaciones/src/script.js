@@ -28,12 +28,6 @@ gltfLoader.setDRACOLoader(dracoLoader)
 let mixer = null
 let actionIdle = null
 let actionRun = null
-const keysPressed = {
-    ArrowUp: false,
-    ArrowDown: false,
-    ArrowLeft: false,
-    ArrowRight: false
-}
 
 gltfLoader.load(
     '/models/Fox/glTF/Fox.gltf',
